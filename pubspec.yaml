@@ -1,0 +1,17 @@
+name: flutter_strings
+description: A Collection of String helpers
+version: 0.0.1
+homepage: https://github.com/GitHubStuff/flutter_strings
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
