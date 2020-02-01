@@ -21,7 +21,7 @@ String flutterFilenameStyle({String using}) {
   return result.join();
 }
 
-String intent(String text, [int amount = 0]) {
+String indent(String text, [int amount = 0]) {
   if (text == null || amount == 0 || text.trim().isEmpty) return text;
   return text.padLeft(text.length + amount, ' ');
 }
